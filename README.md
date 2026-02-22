@@ -16,3 +16,11 @@ git commit -m "first commit"
 git remote add origin https://github.com/your-repo/lectorial01.git  
 git branch -M main  
 git push -u origin main  
+
+
+#to unlink the original origin
+git remote remove origin
+
+#to link with the next origin, e.g. GitHub classroom
+1. Accept the invite. Once accepted, you will be given your own dedicated repo to submit your work like: https://github.com/rmit-fsd-2026-s1/git-and-github-fundamentals-dipto-pratyaksa-rmit.git  
+2. Once you see the repo you use it to practice using git and upload your weekly submissions.
